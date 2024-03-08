@@ -16,9 +16,9 @@ public class Tugas1No3 {
     }
     
     // Method untuk menghitung deret ke-n
-    public static double Deret(int i){
+    public static double Deret(int x){
         double jumlah = 0;
-        for (int n = 1; n <= i; n++){
+        for (int n = 1; n <= x; n++){
             double suku = Math.pow(-1, n + 1) / (2.0 * n - 1);
             jumlah += suku;
         }
